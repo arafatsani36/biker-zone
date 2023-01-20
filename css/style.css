@@ -31,6 +31,9 @@ header{
     margin: 0 auto;
     margin-top: -5px;
 }
+.app{
+    width: 30%;
+}
 
 
 
@@ -41,11 +44,31 @@ header{
 
 
 /* custrom responsive */
-@media (max-width: 992px) {
+@media (min-width:768px) and (max-width: 992px) {
     .Login-btn{
         margin-left: 0px;
     } 
-    .carousel{
-        padding: 80px;
+    .carousel {
+        padding: 50px 80px;
     }
+
+    .faq{
+        width: 100%;
+    }
+    .app{
+        width: 70%;
+    }
+    
+}
+@media (max-width: 767px) {
+    .faq{
+        width: 75%;
+    }
+    .container, .container-sm{
+        max-width: 700px;
+      }
+      .carousel {
+        padding: 80px 50px;
+      }
+
 }
