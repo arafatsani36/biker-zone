@@ -1,0 +1,40 @@
+.bg-primary-color{
+    background: #E76F51;
+}
+.text-primary-color{
+    color: #E76F51;
+}
+.btn:hover{
+    background: #ff3300;
+}
+header{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Login-btn{
+    margin-left: 15px;
+}
+.carousel{
+    padding: 80px 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* custrom responsive */
+@media (max-width: 992px) {
+    .Login-btn{
+        margin-left: 0px;
+    } 
+    .carousel{
+        padding: 80px;
+    }
+}
