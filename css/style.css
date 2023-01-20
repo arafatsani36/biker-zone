@@ -4,8 +4,14 @@
 .text-primary-color{
     color: #E76F51;
 }
+.boder-primary-color{
+    border-color: #E76F51;
+}
 .btn:hover{
     background: #ff3300;
+}
+.btn-secender:hover{
+   color: #ffffff;
 }
 header{
     background-image: url(../images/header-bg.png);
@@ -19,7 +25,12 @@ header{
     padding: 80px 150px;
 }
 
-
+/* Fetured Bikes Seaction style*/
+.bottom{
+    width: 55px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
 
 
 
